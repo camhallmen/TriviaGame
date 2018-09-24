@@ -4,13 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Trivia Rocks</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     
-    
+    <!--Trivia Questions-------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Q: What band eventually formed into Led Zeppelin? The Yardbirds, Psychic Wave, Black Sabbath, The Krystal Kings. A: The Yardbirds-->
+    <!--Q: Who was the lead singer of Queen? Freddie Mercury, Kevin Celsius, Robert Plant, Jake Pluto. A: Freddie Mercury-->
+    <!--Q: What band recorded Sympathy for the Devil? The Rolling Stones, The Beatles, Aerosmith, Pink Floyd. A: The Rolling Stones-->
+    <!--Q: Where was Jimi Hendrix born? Seattle, London, Chicago, San Francisco. A: Seattle -->
+    <!--Q: What band triggered a movement known as the British Invasion? The Beatles, Led Zeppelin, The Rolling Stones, Black Sabbath. A: The Beatles-->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------------->
 
+    <!--Title-->
+    <h1 id="title">Trivia Rocks! (Well, it's alright)</h1>
+
+    <!--Questions and Timer-->
+    <div class="container">
+        <p id="time-text">Time Remaining: <span id="count">90</span> Seconds</p>
+        <!--Question 1-->
+        <p class="question">What band eventually formed into Led Zeppelin?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="Psychic Wave"> Psychic Wave
+            <input type="radio" name="question" value="The Yardbirds"> The Yardbirds
+            <input type="radio" name="question" value="The Krystal Kings"> The krystal Kings
+            <input type="radio" name="question" value="Black Sabbath"> Black Sabbath
+        </form>
+        <br>
+        <!--Question 2-->
+        <p class="question">Who was the lead singer of Queen?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="Kevin Celsius"> Kevin Celsius
+            <input type="radio" name="question" value="Robert Plant"> Robert Plant
+            <input type="radio" name="question" value="Jake Pluto"> Jake Pluto
+            <input type="radio" name="question" value="Freddie Mercury"> Freddie Mercury
+        </form>
+        <br>
+        <!--Question 3-->
+        <p class="question">What band recorded "Sympathy For The Devil?"</p>
+        <form class="answers">
+            <input type="radio" name="question" value="The Rolling Stones"> The Rolling Stones
+            <input type="radio" name="question" value="The Beatles"> The Beatles
+            <input type="radio" name="question" value="Aerosmith"> Aerosmith
+            <input type="radio" name="question" value="Pink Floyd"> Pink Floyd
+        </form>
+        <br>
+        <!--Question 4-->
+        <p class="question">Where was Jimi Hendrix born?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="London"> London
+            <input type="radio" name="question" value="Seattle"> Seattle
+            <input type="radio" name="question" value="Chicago"> Chicago
+            <input type="radio" name="question" value="San Francisco"> San Francisco
+        </form>
+        <br>
+        <!--Question 5-->
+        <p class="question">What band triggered a movement known as "The British Invasion"?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="Led Zeppelin"> Led Zeppelin
+            <input type="radio" name="question" value="The Rolling Stones"> The Rolling Stones
+            <input type="radio" name="question" value="The Beatles"> The Beatles
+            <input type="radio" name="question" value="Black Sabbath"> Black Sabbath
+        </form>
+        <br>
+        <button id="done-button">Done!</button>
+        <br>
+    </div>
+    <br>
+    
     <!--JQuery Link-->
     <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
